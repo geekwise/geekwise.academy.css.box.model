@@ -25,7 +25,60 @@ summary{
   display:block;
 }
 
-details summary::-webkit-details-marker{     display:none;
+
+body{
+    background-color:#7a1501;
+}
+
+.click
+{
+    width: 100%;
+    height: 50px;
+    background-color:#f9da0c;
+    color:#000000;
+}
+ 
+.click
+{
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+ 
+.slide
+{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: top 1s;
+    -moz-transition: top 1s;
+}
+
+
+.click:focus + .slide
+{
+    top: 50px;
+    -webkit-transition: top 1s;
+}
+
+.click:focus
+{
+    outline: none;
+}
+
+.slide:hover
+{
+    top: 50px;
+}
+
+details summary::-webkit-details-marker{
+    display:none;
+}
+
+details{
+    background-color:#f9da0c;
+    color:#0000;
+    
 }
 
 
@@ -49,6 +102,12 @@ details summary::-webkit-details-marker{     display:none;
       transform: rotate(90deg);
 }
 
+
+
+
+
+
+
 #menu_icon::before{
     content:'III';
     color:#dddddd
@@ -64,4 +123,25 @@ details summary::-webkit-details-marker{     display:none;
     
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
