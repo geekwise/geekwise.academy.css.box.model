@@ -1,0 +1,11 @@
+#nav_ios ul {
+    display: none;
+}
+
+#nav_ios_no_underline:focus + ul {
+    display: block;
+}
+
+#nav_ios_no_underline {
+    text-decoration: none;
+}
