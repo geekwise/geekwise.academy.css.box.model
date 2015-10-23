@@ -1,0 +1,56 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color:maroon;
+}
+
+
+ul{
+    display:none;
+}
+
+
+
+
+div[type='div']{
+    border-radius:.2em;
+    border:.05em solid #dddddd;
+    background-color:#ffffff;
+    color:#888888;
+    
+    float:right;
+    
+    margin-left:.5em;
+    margin-right:.5em;
+    margin-top:.5em;
+    
+    padding:.3em;
+    
+    
+    transform:scale(1.3,.9);
+    font-size:1em;
+}
+
+div[type='div']::before{
+    content:'III';
+    float:left;
+    transform:rotate(90deg);
+
+}
+
+div[type='div']:focus,div[type='div']:hover{
+    outline:0;
+    background-color:#dddddd;
+}
+
+div[type='div']:focus + ul,ul:active,ul:hover,ul:focus{
+    display:block;
+    background-color:#ffffff;
+    
+}
+
+ul:active,ul:hover,ul:focus{
+    display:block;
+}
+
+

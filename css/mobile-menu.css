@@ -1,0 +1,86 @@
+/*CSS MENU FOR iPHONE 3 to 5s*/
+@media screen and (min-width: 410px){
+    #mobile_menu{
+        display:none;
+    }
+}
+
+
+html,body{
+    margin:0;
+    padding:0;
+    background-color:maroon;
+}
+
+header{
+    background-color:#ffffff;
+}
+
+nav{
+    display:none;
+}
+
+
+#mobile_menu{
+    border-radius:.2em;
+    border:.05em solid #dddddd;
+    
+    background-color:#ffffff;    
+    color:#888888;
+
+    float:right;
+    margin-left:.5em;
+    margin-right:.5em;
+    margin-top:.5em;
+
+    padding:.3em;
+
+    transform:scale(1.3,.9);
+    font-size:1em;
+}
+
+
+
+
+
+#mobile_menu::before{
+    content:'III';
+    float:left;
+    transform:rotate(90deg);
+
+}
+
+#mobile_menu:focus{
+    outline:0;
+    background-color:#dddddd;
+}
+
+#mobile_menu:hover{
+    background:#dddddd;
+    cursor:pointer;
+}
+
+
+#mobile_menu:focus + nav{
+    display:block;
+    clear:both;
+    margin-left:30%;
+    margin-right:30%;
+
+    width:auto;
+    background-color:#ffffff;
+
+}
+
+
+
+/*
+
+
+
+
+
+
+
+*/
+
