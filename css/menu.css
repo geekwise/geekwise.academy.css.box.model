@@ -54,6 +54,10 @@ div[type='button']:focus + ul,ul:active,ul:hover,ul:focus{
 
 ul:active,ul:hover,ul:focus{
     left:auto;
+<<<<<<< HEAD
 }
 
 
+=======
+}
+>>>>>>> master
