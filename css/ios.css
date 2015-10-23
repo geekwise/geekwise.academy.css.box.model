@@ -3,14 +3,6 @@
     left:-9999em;    
 }
 
-#nav_ios_no_underline:focus,#nav_ios_no_underline:hover + ul {
-    display: block;
-
-}
-#nav_ios_no_underline:focus + ul {
-    left:auto;
-}
-
 #nav_ios_no_underline:focus + ul {
     left:auto;
 }
