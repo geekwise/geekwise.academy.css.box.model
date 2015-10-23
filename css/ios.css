@@ -1,9 +1,10 @@
 #nav_ios ul {
-    display: none;
+    position:relative;
+    left:-9999em;    
 }
 
 #nav_ios_no_underline:focus + ul {
-    display: block;
+    left:auto;
 }
 
 #nav_ios_no_underline {
