@@ -3,9 +3,16 @@
     left:-9999em;    
 }
 
+<<<<<<< HEAD
 #nav_ios_no_underline:focus + ul {
     left:auto;
+=======
+#nav_ios_no_underline:focus,#nav_ios_no_underline:hover + ul {
+    display: block;
+>>>>>>> gh-pages
 }
+
+
 
 #nav_ios_no_underline {
     text-decoration: none;
