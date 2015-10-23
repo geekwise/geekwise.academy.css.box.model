@@ -1,9 +1,15 @@
 #nav_ios ul {
-    display: none;
+    position:relative;
+    left:-9999em;    
 }
 
+<<<<<<< HEAD
 #nav_ios_no_underline:focus,#nav_ios_no_underline:hover + ul {
     display: block;
+=======
+#nav_ios_no_underline:focus + ul {
+    left:auto;
+>>>>>>> master
 }
 
 
