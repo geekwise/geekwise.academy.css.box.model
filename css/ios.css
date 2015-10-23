@@ -1,17 +1,18 @@
-#nav_ios ul {
+div[type='button']{
+    width:100px;
+    height:100px;
+    background-color:gold;
+    cursor:pointer;
+}
+
+ul{
     position:relative;
-    left:-9999em;    
-}
-
-#nav_ios_no_underline:focus + ul {
-    left:auto;
-}
-
-#nav_ios_no_underline:focus,#nav_ios_no_underline:hover + ul {
-    left:auto;
+    left:-9999em;
 }
 
 
-#nav_ios_no_underline {
-    text-decoration: none;
-}
+div[type='button']:active{
+
+    background-color:red;
+
+};
